@@ -1,0 +1,11 @@
+target
+*.jar
+*.war
+*.class
+*.log
+.mvn
+.git
+.gitignore
+docker-compose.yml
+uploads
+**/node_modules

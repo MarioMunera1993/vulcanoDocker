@@ -1,0 +1,195 @@
+
+    .login-card {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    
+    .login-title {
+      font-size: 26px;
+      font-weight: 900;
+      color: var(--color-dark);
+      margin-bottom: 24px;
+      letter-spacing: 0.3px;
+    }
+
+  
+    .input-wrapper {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .login-input {
+      width: 100%;
+      padding: 16px 18px;
+      border-radius: 14px;
+      border: 2px solid #96786F;
+      background: #3b1f1c;
+      color: #FFF4E2;
+      font-family: 'Nunito', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      caret-color: #FDE4BC;
+    }
+
+    .login-input::placeholder {
+      color: #96786F;
+    }
+
+    .login-input:focus {
+      border-color: #D3ABB0;
+      box-shadow: 0 0 0 3px rgba(211, 171, 176, 0.15);
+    }
+
+    
+    .password-field {
+      position: relative;
+      width: 100%;
+    }
+
+    .login-input.has-link {
+      padding-right: 100px;
+    }
+
+    .forgot-link {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 11px;
+      font-weight: 800;
+      color: #D3ABB0;      
+      letter-spacing: 0.5px;
+      text-align: right;
+      line-height: 1.3;
+      text-decoration: none;
+    }
+
+    .forgot-link:hover {
+      color: #FDE4BC;
+    }
+
+    
+    .btn-login {
+      width: 100%;
+      padding: 16px;
+      margin-top: 8px;
+      background: #FDE4BC;
+      color: #472825;
+      border: none;
+      border-radius: 14px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 15px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+      box-shadow: 0 4px 0 #96786F;
+    }
+
+    .btn-login:hover {
+      background: #FFF4E2;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 0 #96786F;
+    }
+
+    .btn-login:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 0 #96786F;
+    }
+
+    
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+      margin: 20px 0;
+      color: #96786F;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: #96786F;
+      opacity: 0.35;
+    }
+
+  
+    .social-btns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      width: 100%;
+      margin-bottom: 24px;
+    }
+
+    .btn-social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 13px;
+      border-radius: 14px;
+      border: 2px solid #96786F;
+      background: transparent;
+      color: var(--color-dark);
+      font-family: 'Nunito', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-social:hover {
+      border-color: #D3ABB0;
+      background: rgba(211, 171, 176, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .btn-social svg {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+    }
+
+    
+    .login-footer-text {
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: #96786F;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .login-footer-text a {
+      color: #D3ABB0;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .login-footer-text a:hover {
+      color: #FDE4BC;
+    }
+
+    .login-footer-divider {
+      width: 100%;
+      height: 1px;
+      background: #96786F;
+      opacity: 0.2;
+      margin: 4px 0 14px;
+    }
