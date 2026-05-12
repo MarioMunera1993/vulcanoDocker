@@ -1,7 +1,7 @@
 FROM eclipse-temurin:21-alpine AS build
 WORKDIR /app
 
-COPY pom.xml mvnw .
+COPY pom.xml mvnw .mvn/wrapper/
 RUN chmod +x mvnw
 COPY src src
 
