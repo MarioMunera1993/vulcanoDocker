@@ -7,7 +7,7 @@ import {
   updateSchedule, 
   deleteSchedule 
 } from "../services/scheduleService";
-import "../styles/ClassManagement.css";
+import "../styles/classManagement.css";
 import Swal from "sweetalert2";
 import { Icon } from "@iconify/react";
 

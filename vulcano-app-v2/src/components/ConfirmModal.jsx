@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ConfirmModal.css';
+import '../styles/confirmModal.css';
 
 /**
  * ConfirmModal: Un modal estético para confirmaciones críticas.

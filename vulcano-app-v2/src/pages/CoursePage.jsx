@@ -17,7 +17,7 @@ import NavbarPpal from '../components/NavbarPpal';
 import VulcanoFooter from '../components/VulcanoFooter';
 import Swal from 'sweetalert2';
 
-import '../styles/Course.css';
+import '../styles/course.css';
 import { getCourses, createCourse, updateCourse, deleteCourse } from "../services/courseService";
 import { enrollInCourse, getUserById } from "../services/api";
 import Modal from '../components/Modal';

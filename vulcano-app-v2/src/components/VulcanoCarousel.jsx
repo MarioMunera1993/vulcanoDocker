@@ -1,4 +1,4 @@
-import "../styles/VulcanoCarousel.css";
+import "../styles/vulcanoCarousel.css";
 const Carousel = () => {
   return (
     <section className="carrusel-container">

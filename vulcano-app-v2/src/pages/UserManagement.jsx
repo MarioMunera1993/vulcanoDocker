@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getAllUsers, updateUserRole } from "../services/api";
 import Swal from "sweetalert2";
 import ConfirmModal from "../components/ConfirmModal";
-import "../styles/UserManagement.css";
+import "../styles/userManagement.css";
 
 const UserManagement = () => {
     const [users, setUsers] = useState([]);

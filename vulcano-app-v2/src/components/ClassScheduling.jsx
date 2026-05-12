@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../styles/Course.css';
+import '../styles/course.css';
 import { alertaEliminarClase } from '../helpers/alerts';
 import Swal from 'sweetalert2';
 import { getAllSchedules } from '../services/scheduleService';

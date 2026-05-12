@@ -6,7 +6,7 @@ import StudentNavbar from '../components/StudentNavbar';
 import ModuleSidebar from '../components/ModuleSidebar';
 import { getModules, getModuleById } from '../services/moduleService';
 import Swal from 'sweetalert2';
-import '../styles/StudentModuleView.css';
+import '../styles/studentModuleView.css';
 
 const StudentModuleView = () => {
   const { moduleId } = useParams();

@@ -1,4 +1,4 @@
-import '../styles/Navbarppal.css';
+import '../styles/navbarppal.css';
 
 const vulcanoIcon = '/Icons/Vulcano_Icon-removebg-preview.png';
 

@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 import ModuleCard from '../components/ModuleCard';
 import ModuleForm from '../components/ModuleForm';
 import { getModules, createModule, updateModule, deleteModule } from '../services/moduleService';
-import '../styles/ModuleView.css';
+import '../styles/moduleView.css';
 
 const mascotSvg = '/Icons/vulcancito.svg';
 

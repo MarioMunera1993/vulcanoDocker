@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 import { getAllUsers } from "../services/api";
 import Swal from "sweetalert2";
-import "../styles/TeacherForm.css";
+import "../styles/teacherForm.css";
 
 // ────────────────────────────────────────────────────────────
 // TeacherForm

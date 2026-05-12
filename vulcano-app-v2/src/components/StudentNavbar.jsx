@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import '../styles/StudentNavbar.css';
+import '../styles/studentNavbar.css';
 
 /**
  * StudentNavbar - Barra de navegación exclusiva para la vista de estudiante.

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import '../styles/VulcanoMain.css';
+import '../styles/vulcanoMain.css';
 
 const logoVideo = '/videos/Logo.mp4';
 

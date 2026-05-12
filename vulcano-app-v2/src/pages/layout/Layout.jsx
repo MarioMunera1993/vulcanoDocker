@@ -15,7 +15,7 @@
 
 import { useState, useEffect } from "react";
 import { useNavigate, Outlet } from "react-router-dom";
-import "../../styles/Layout.css";
+import "../../styles/layout.css";
 import EditProfileModal from "../../components/EditProfileModal";
 import { getUserById } from "../../services/api";
 import { Icon } from "@iconify/react";
